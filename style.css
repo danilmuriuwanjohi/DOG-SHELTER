@@ -1,0 +1,71 @@
+.home1{
+    height: 1000px;
+    background-image: url("images/dog-removebg-preview\ \(1\).png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+*{
+    text-decoration: none;
+}
+.nav{
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+}
+li{
+    float: right;
+    padding: 20px;
+    margin: 15px;
+}
+#dog{
+    clear: both;
+    padding: 0px;
+    margin: 0px;
+    font-weight: 700px;
+}
+
+/*page 2*/
+
+.landing{
+    background-color: antiquewhite;
+    text-align: center;
+    height: 500px;
+    padding: 50px;
+    margin: 50px;
+}
+
+/*page 3*/
+.ending{
+    background-color: #292827;
+    height: 500px;
+    text-align: center;
+    color: white;
+    padding: 100px;
+    padding: 100px;
+}
+.ending h5{
+    opacity: 0.2;
+}
+.pictures{
+    display: flex;
+    justify-content: space-evenly;
+}
+.pictures>li>img{
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    padding:20px;
+}
+.pictures>li{
+    text-decoration: none;
+    list-style-type: none;
+    text-align: center;
+}
+#id{
+    display:flex;
+    list-style-type: none;
+    text-align: center;
+    text-decoration: none;
+}
